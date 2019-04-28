@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zt.com.resourcesharing">
+
+    <!-- if you want to load images from the internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- if you want to load images from a file OR from the internet -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity android:name=".activity.MainActivity"/> -->
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+         <activity
+         android:name=".activity.HomeActivity"
+         android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity android:name=".activity.SettingActivity" />
+        <activity android:name=".activity.AccountManageActivity" />
+        <activity android:name=".activity.InfoManageActivity" />
+        <activity android:name=".activity.Register2Activity" />
+        <activity android:name=".activity.ChangePWDActivity" />
+        <activity android:name=".activity.BlogNumActivity" />
+        <activity android:name=".activity.BlogDetailsActivity" />
+        <activity android:name=".activity.CategoryContentActivity" />
+        <activity android:name=".activity.EssayDetailsActivity" />
+        <activity android:name=".activity.SearchActivity" />
+        <activity android:name=".activity.AddMyBlogActivity" />
+        <activity android:name=".activity.AddCommentActivity" />
+        <activity android:name=".activity.CommentListActivity"/>
+<!--
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="zt.com.resourcesharing.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+-->
+    </application>
+
+</manifest>

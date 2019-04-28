@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/intro3">
+
+    <TextView
+        android:id="@+id/tv_blog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blog"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"/>.
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/page1"
+        android:textSize="25sp"
+        android:textColor="@color/toolbar2"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">ORS</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="blog">博客</string>
+    <string name="find">说说</string>
+    <string name="mine">我的</string>
+    <string name="manage">管理</string>
+    <string name="blog_num">个人博文</string>
+    <string name="user">用户名</string>
+    <string name="e_mail">邮      箱</string>
+    <string name="pwd">密      码</string>
+    <string name="re_pwd">确认密码</string>
+    <string name="gender">性      别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="verify">请输入验证码</string>
+    <string name="username">请输入用户名</string>
+    <string name="password">请输入登录密码</string>
+    <string name="reminder">点击‘注册’按钮，表示您已同意《用户协议》</string>
+    <string name="hintPWD">请输入6-10位密码</string>
+    <string name="hintZh">请输入手机号</string>
+
+    <string name="page1">达人分享     全球共赏</string>
+    <string name="page2">喜·聚天下朋友，畅·享知识海洋</string>
+    <string name="page3">无规矩不成方圆</string>
+
+    <string name="account">账号管理</string>
+    <string name="set">账号设置</string>
+    <string name="info">资料管理</string>
+    <string name="add_or_register">添加或注册账户</string>
+    <string name="exit">退出当前账号</string>
+    <string name="change_pwd">更改密码</string>
+    <string name="old_pwd">旧密码</string>
+    <string name="new_pwd">新密码</string>
+    <string name="btn_ok">确定</string>
+    <string name="birthDate">出生日期</string>
+    <string name="nickname">昵      称</string>
+    <string name="head">头      像</string>
+    <string name="individual">个人简介</string>
+    <string name="upload">上传头像</string>
+    <string name="picture">选择图片</string>
+    <string name="search">请输入搜索内容</string>
+
+    <string name="recommend">评论</string>
+    <string name="like">点赞</string>
+    <string name="category">分类:</string>
+    <string name="brief">简介</string>
+    <string name="details">博客详情</string>
+    <string name="addBlog">发博文</string>
+    <string name="title">标题</string>
+    <string name="addContent">分享我的博文...</string>
+    <string name="addComment">发评论</string>
+    <string name="writeComment">写评论...</string>
+    <string name="commentList">评论详情</string>
+</resources>
